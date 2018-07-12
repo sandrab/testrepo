@@ -3,4 +3,13 @@
  * This is the index.php.
  */
 
-// @todo: implement something here.
+/**
+ * Does foo things.
+ * @return void
+*/
+function foo(){
+	echo 'This is a message from foo().';
+}
+
+// Call foo.
+foo();
