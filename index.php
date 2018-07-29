@@ -3,4 +3,6 @@
  * This is the index.php.
  */
 
-// @todo: implement something here.
+function barBaz(){
+    echo 'I am barBaz.';
+}
