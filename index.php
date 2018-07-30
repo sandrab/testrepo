@@ -27,11 +27,12 @@ foo();
 /**
  * Does myMy things.
 */
-function myMy(){
-    echo 'I will do myMy.';
+function myMy($myNumber){
+    echo 'I will do myMy with: ' + $myNumber;
 }
-// Call myMy.
-myMy();
+
+// Call myMy with some paramteter.
+myMy(2);
 
 /**
  * Does fooBar things.
