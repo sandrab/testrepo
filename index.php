@@ -7,7 +7,7 @@
  * Does barBaz things.
 */
 function barBaz(){
-    echo 'I am barBaz.';
+    echo 'I will do barBaz.';
 }
 
 // Cal barBaz.
@@ -18,7 +18,7 @@ barBaz();
  * @return void
 */
 function foo(){
-	echo 'This is a message from foo().';
+	echo 'I will do foo.';
 }
 
 // Call foo.
