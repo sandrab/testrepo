@@ -25,7 +25,7 @@ function foo(){
 foo();
 
 /**
- * Does fooBar stuff.
+ * Does fooBar things.
  * @return void
 */
 function fooBar(){
