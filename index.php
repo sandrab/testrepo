@@ -25,6 +25,15 @@ function foo(){
 foo();
 
 /**
+ * Does myMy things.
+*/
+function myMy(){
+    echo 'I will do myMy.';
+}
+// Call myMy.
+myMy();
+
+/**
  * Does fooBar things.
  * @return void
 */
