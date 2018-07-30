@@ -32,7 +32,7 @@ function myMy($myNumber){
 }
 
 // Call myMy with some paramteter.
-myMy(2);
+myMy(3);
 
 /**
  * Does fooBar things.
