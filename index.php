@@ -7,7 +7,7 @@
  * Does barBaz things.
 */
 function barBaz(){
-    echo 'I am barBaz.';
+    echo 'I will do barBaz.';
 }
 
 // Cal barBaz.
@@ -18,14 +18,24 @@ barBaz();
  * @return void
 */
 function foo(){
-	echo 'This is a message from foo().';
+	echo 'I will do foo.';
 }
 
 // Call foo.
 foo();
 
 /**
- * Does fooBar stuff.
+ * Does myMy things.
+*/
+function myMy($myNumber){
+    echo 'I will do myMy with: ' + $myNumber;
+}
+
+// Call myMy with paramteter 4.
+myMy(4);
+
+/**
+ * Does fooBar things.
  * @return void
 */
 function fooBar(){
