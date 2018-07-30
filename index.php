@@ -31,8 +31,8 @@ function myMy($myNumber){
     echo 'I will do myMy with: ' + $myNumber;
 }
 
-// Call myMy with some paramteter.
-myMy(3);
+// Call myMy with paramteter 4.
+myMy(4);
 
 /**
  * Does fooBar things.
