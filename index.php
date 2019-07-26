@@ -28,6 +28,7 @@ foo();
  * Does myMy things.
 */
 function myMy($myNumber){
+    if ( $myNumber <= 0 ) return;
     echo 'I will do myMy with: ' + $myNumber;
 }
 
