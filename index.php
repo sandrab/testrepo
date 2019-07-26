@@ -32,7 +32,7 @@ function myMy($myNumber){
     echo 'I will do myMy with: ' + $myNumber;
 }
 
-// Call myMy with paramteter 4.
+// Call myMy with parameter 4.
 myMy(4);
 
 /**
