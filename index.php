@@ -4,16 +4,6 @@
  */
 
 /**
- * Does barBaz things.
-*/
-function barBaz(){
-    echo 'I will do barBaz.';
-}
-
-// Cal barBaz.
-barBaz();
-
-/**
  * Does foo things.
  * @return void
 */
