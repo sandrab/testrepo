@@ -8,6 +8,8 @@
 */
 function barBaz(){
     echo 'I will do barBaz.';
+    $my_my = 'hello';
+    echo "$my_my world";
 }
 
 // Cal barBaz.
