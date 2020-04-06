@@ -4,6 +4,18 @@
  */
 
 /**
+ * Does barBaz things.
+*/
+function barBaz(){
+    echo 'I will do barBaz.';
+    $my_my = 'hello';
+    echo "$my_my world";
+}
+
+// Cal barBaz.
+barBaz();
+
+/**
  * Does no_foo things.
  * @return void
 */
