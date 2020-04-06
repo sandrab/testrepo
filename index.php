@@ -15,24 +15,25 @@ function barBaz(){
 barBaz();
 
 /**
- * Does foo things.
+ * Does no_foo things.
  * @return void
 */
-function foo(){
-	echo 'I will do foo.';
+function no_foo(){
+	echo 'I will do foo. Or maybe not.';
 }
 
-// Call foo.
-foo();
+// Call no_foo.
+no_foo();
 
 /**
  * Does myMy things.
 */
 function myMy($myNumber){
-    echo 'I will do myMy with: ' + $myNumber;
+    if ( $myNumber <= 0 ) return;
+    echo 'I will do myMy with: ' . $myNumber;
 }
 
-// Call myMy with paramteter 4.
+// Call myMy with parameter 4.
 myMy(4);
 
 /**
