@@ -1,6 +1,7 @@
 <?php
 /*
  * This is the index.php.
+ * Version: 1.0.2
  */
 
 /**
