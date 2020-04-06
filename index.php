@@ -1,7 +1,18 @@
 <?php
 /*
  * This is the index.php.
+ * Version: 1.0.2
  */
+
+/**
+ * Does barBaz things.
+*/
+function barBaz(){
+    echo 'I will do barBaz. Oops, fix a major mistake here.';
+}
+
+// Cal barBaz.
+barBaz();
 
 /**
  * Does no_foo things.
