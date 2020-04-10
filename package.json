@@ -1,0 +1,22 @@
+{
+  "name": "testrepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandrab/testrepo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandrab/testrepo/issues"
+  },
+  "homepage": "https://github.com/sandrab/testrepo#readme",
+  "devDependencies": {
+    "@wordpress/scripts": "^7.0.0"
+  }
+}
